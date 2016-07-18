@@ -1,0 +1,173 @@
+.selectedWorks {
+ 	padding: 1%;
+}
+
+.portfolioSection{
+	display: flex;
+	flex-direction: column;
+}
+
+.portfolioItem {
+	display: flex;
+	flex-direction: row;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 2% 0;
+    width: 100%;
+
+}
+
+.portfolioItem:nth-child(even) { 
+	display: flex;
+	flex-direction: row-reverse; 
+}
+.portfolioImage {
+	width: calc(50% - 2%);
+    border: none;
+    background: whitesmoke;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+	img {
+		max-width: 100%;
+		// box-shadow: 5px 5px 5px rgba(51,51,51,0.9);
+	}
+}
+
+.portfolioContent {
+	    width: calc(50% - 2%);
+	    display: flex;
+	    flex-direction: column;
+		background: #AAABD3;
+
+	    padding: 5%;
+	    color: #fafafa;
+		
+	p {
+	    display: inline-block;
+	    max-width: 500px;
+	    margin: 0;
+	    letter-spacing: 0.5px;
+	    font-weight: 100;
+	    line-height: 1.6;
+	    font-size: 1em;
+	
+	}
+
+	h3 {
+		display: inline-block;
+		letter-spacing: 1px;
+		font-weight: 400;
+		position: relative;
+	
+
+	&:after {
+		content: '';
+		border-bottom: 1px solid rgba(250, 250, 250, 0.62);
+		position: absolute;
+	    top: 30px;
+	    width: 30px;
+		left: 0px;
+		}
+	}
+}
+
+.greetingsPortfolio {
+	padding: 10px;
+
+	h1 {
+		display: inline-block;
+		margin: 0;
+	}
+}
+
+.skillsUsed {
+    top: 20px;
+    border: none;
+    margin: 0;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.worksLink {
+	display: inline-block;
+	border: 1px solid white;
+	margin-top: 39px;
+	display: flex;
+	width: 30%;
+	text-align: center;
+
+	&:hover {
+    	background: #fafafa;
+    	transition: 0.3s;
+
+    	& a {
+    		color: #AAABD3; 
+    		width: 100%;
+    		transition: 0.3s;
+
+    	}
+    }
+
+    a {
+	    color: #fafafa;
+	    padding: 8%;
+	    width: 100%;
+    }
+
+ 
+}
+
+
+.contentContainer {
+	 display: flex;
+	 flex-direction: column;
+}
+
+
+.mobileHeader {
+	display: none;
+}
+
+
+	@media (max-width: 840px) {
+		.portfolioItem {
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: space-between;
+		    margin-top: 2%;
+		    width: calc(100% - 2%);
+		}
+
+		.portfolioImage {
+			margin: 0 auto;
+   			margin-top: 10px;
+   			width: calc(100% - 2%);
+		}
+
+		.portfolioContent {
+			margin: 0 auto;
+    		margin-top: 20px;
+    		width: calc(80% - 2%);
+    		padding: 5% 10%;
+    		
+
+		}
+
+		.portfolioItem:nth-child(even) { 
+		    display: flex;
+		  
+		    flex-direction: column;
+		}
+	}
+
+
+

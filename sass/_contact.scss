@@ -1,0 +1,198 @@
+.contactInformationContainer {
+	margin-top: 3.5%;
+	display: flex;
+
+}
+.holler {
+	padding-left: 10px;
+}
+
+
+.largeHoller {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+
+	&:after  {
+	content: '';
+	z-index: -999999;
+    width: 110%;
+    height: 95%;
+    position: absolute;
+    border: 4px solid rgba(251,185,255,.9);
+    left: 30px;
+    top: -30px;
+	
+	}
+
+
+	h1 {
+	display: inline-block;
+    position: relative;
+    margin: 0;
+	}
+}
+
+
+
+
+.contactForm {
+	max-width: 80%;
+	margin-left: 10px;
+}
+
+
+
+fieldset {
+    border: none;
+    margin: 0 20px;
+    padding: 20px 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+label {
+    font-family: 'Lato', sans-serif;
+    padding: 40px 0px;
+    color: #297383;
+    font-weight: 300;
+} 
+
+
+input {
+    width: calc(50%);
+    height: 30px;
+    box-shadow: none;
+    border: 2px solid #6599A4;
+	font-family: inherit;
+	font-size: 100%;
+	margin: 20px;
+	padding-left: 10px;
+    padding:15px;
+    background: rgba(251,251,251,0.8);
+
+}
+
+input[type=submit] {
+    width: 20%;
+    display: block;
+    background: rgba(251,251,251,0.8);
+    padding-bottom: 30px;
+}
+
+input[type=submit]:hover {
+    background: 5px solid rgba(106, 175, 230, 0.81);
+    color: #fafafa;
+
+}
+
+
+textarea {
+    border: 2px solid #6599A4;
+    height: 200px;
+    width: 70%;
+    padding: 5px 10px;
+	margin-top: 20px;
+    background: rgba(251,251,251,.8);
+}
+
+.marginBump {
+	margin-top: 20px;
+}
+
+.contactContainer {
+    width: 100%;
+    padding: 4% 3%;
+    margin-bottom: 3%;
+
+
+    .onsenWrapper {
+       margin: 0 auto;
+       display: flex;
+       width: 95%;
+    }
+
+}
+
+
+.contactImageContainer {
+    background-image: url(images/osaka.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 75%;
+    height: 450px;
+    box-shadow: 10px 10px 5px -6px rgba(240,216,240,.5);
+    position: relative;
+
+
+    &:after  {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 40%;
+    border: 5px solid rgba(106, 175, 230, 0.81);
+    z-index: -1;
+    top: 49px;
+    }
+
+} 
+    
+.contactImageHello {
+    flex-direction: column;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    width: 35%;
+    position: relative;
+    right: 10%;
+
+    h1 {
+        display: inline-block;
+        margin: 0 auto;
+        font-size: 2.5em;
+        width: 110%;
+        color: whitesmoke;
+        text-shadow: 1px 1px 1px black;
+
+    }
+
+}      
+
+
+@media (max-width: 990px) {
+	.largeHoller {
+		display: none;
+	}
+	
+}
+
+
+
+
+@media (max-width: 580px) {
+    .largeHoller {
+        display: none;
+    }
+    
+    .textarea {
+        width: 100%;
+    }
+
+    input[type=submit] {
+        width: 40%;
+    }
+
+    .marginBump, textarea {
+    margin-top: 20px;
+    width: 100%;
+
+    }
+
+    .contactForm {
+        margin-top: 40px;
+    }
+
+
+}
+
+
