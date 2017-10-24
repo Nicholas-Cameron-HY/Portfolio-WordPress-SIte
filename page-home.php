@@ -19,25 +19,20 @@
 
 						</div>	
 						<div class="onsenHello">
-							<h1> Hello, I'm Nicholas, and I'm a front-end developer.</h1>
-
+							<h1>Hello, I'm Nicholas. I'm a developer and digital strategist.</h1>
 						</div>		
 					</div>	
-
-
 				</section>
 
 				<section class="selectedWorks">
 
-				      <h4> Selected Works</h4>
+				      <h4>Selected Works</h4>
 				      <?php the_content(); ?>
 
 				      <?php include('content-selectedworks.php') ?>
 
-				   
-
-	
 				</section>
+				
 				
 			<?php get_footer(); ?>
 
@@ -45,5 +40,6 @@
 
 	<?php endwhile;?>
 
+	
 	
 

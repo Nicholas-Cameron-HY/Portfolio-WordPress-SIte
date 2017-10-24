@@ -21,7 +21,7 @@
 
 				</div>	
 				<div class="contactImageHello">
-					<h1> Give me a shout.</h1>
+					<h1>Give me a shout.</h1>
 				</div>		
 			</div>	
 
@@ -70,7 +70,7 @@
 				</div>
 
 				<div class="largeHoller">
-					<h1> Let's work together. </h1>
+					<h2>Let's work together</h2>
 				</div>
 
 		</section>

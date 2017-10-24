@@ -17,7 +17,7 @@
 			<section class="selectedWorks">
 
 
-			      <h4> Selected Works</h4>
+			      <h4>Selected Works</h4>
 			      <?php the_content(); ?>
 
 			      <?php include('content-selectedworks.php') ?>

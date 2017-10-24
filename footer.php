@@ -1,8 +1,8 @@
 <footer class="upperFooter clearfix">
 
 	<div class="footerLeft">
-		<h4> Status </h4>
-		<p>Available for hire.</p>
+		<h4>Status</h4>
+		<p>Front-End Developer at Climax Media</p>
 	</div>
 
 	<div class="footerRight">

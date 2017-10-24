@@ -6,8 +6,6 @@
 
 	?>
 
-<!-- LET'S START THE BIG LOOP -->
-
 <?php get_header();  ?>
 
  <?php if ( have_posts() ) while ( have_posts('outside_skills', 'option') ) : the_post(); ?>
@@ -19,7 +17,7 @@
 				<div class="onsenWrapper">
 
 					<div class="aboutImageHello">
-						<h1> About Me.</h1>
+						<h1>About Me</h1>
 					</div>		
 
 					<div class="aboutImageContainer">
@@ -30,12 +28,6 @@
 
 
 			</section>
-
-			<article class="aboutImageHero displayMobileContact">
-			  <?php $image = get_field('about_hero_image'); ?>
-			  <img src="<?php echo $image['url'] ?>">
-			</article>
-
 
 			<section class="aboutInformationContainer clearfix">
 					
